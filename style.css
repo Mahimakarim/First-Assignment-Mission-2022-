@@ -1,0 +1,261 @@
+
+body{
+   
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+   
+
+}
+ /* header area css */
+.flex-container{
+    display: flex;
+    padding-bottom: 120px;
+}
+.half-width{
+    padding-top: 30px;
+    padding-left: 10%;
+    width: 40%;
+    padding-right: 5%;
+
+}
+.half-width img{
+    width: 80%;
+    
+}
+span{
+    color: #FFAD5A;
+
+}
+h1{
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+    color:#575757;
+   
+    
+}
+p{
+    font-size: 20px;
+    color: #828282;
+    padding-bottom: 20px;
+}
+.btn{
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF5959;
+    border-radius: 5px;
+}
+
+.flexible-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+.stay-focus-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stay-focus-img img{
+   width: 70%;
+   margin: 0 auto;
+    
+}
+
+.half-width.coding{
+    background-image: url(./images/shapes/shape-1.png);
+    position: relative;
+    left: 0px;
+    top: 40px;
+}
+
+.mission-in{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    
+}
+.mission-in-img{
+    width: 100px;
+}
+#my{
+    text-align: center;
+    font-size: 50px;
+}
+#skyblue{
+    background: #EDF5F6;
+}
+#pink{
+
+background-color:#FFEEEE;
+}
+#mellow{
+    background-color: #FFF4D6;
+}
+.flex-div{
+    
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 2px #d1d1d1;
+}
+
+ /* about area css */
+.about p{
+    color: #18191F;
+}
+.about-bg img{
+    width:100%;
+}
+.about-bg{
+
+    background-repeat: no-repeat;
+    background-position:  top;
+    background-size: contain;
+
+    padding-bottom: 120px;
+}
+
+ /* recipie area css*/
+.recipi-text{
+    text-align: center;
+    padding: 0 200px;
+    padding-bottom: 30px;
+}
+.recipi-text p{
+    font-size: 18px;
+    color:#18191F;
+}
+.recipie-container{
+    display: flex;
+   
+    justify-content: center;
+}
+.third-width{
+    width: 25%;
+    box-shadow: 10px 10px 40px gray;
+
+    margin-left: 4%;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+   
+}
+.third-width img{
+    width: 337px;
+    height: 256px;
+}
+.third-width p{
+    font-size: 16px;
+    color: #18191F
+}
+.third-width h1{
+    font-size: 28px;
+    color:#18191F;
+    font-weight: 900;
+}
+
+ /* coubt area css */
+.count-container{
+    display: flex;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 120px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+.count-width{
+    width: 25%;
+    padding-left: 5%;
+    padding-right: 20px;
+    text-align: center;
+}
+.count-width h1{
+    color:#18191F;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.count-width p{
+    color: #18191F;
+    font-size: 15px;
+}
+
+ /* menu area css */
+.menu-flex{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+.menu-container{
+    display: flex;
+    width: 50%;
+  ;
+}
+.menu-width img{
+    margin-left: 25%;
+   
+}
+.menu-width{
+    width: 50%;
+    
+}
+.menu-width h1{
+    padding: 0;
+    font-size: 22px;
+}
+.menu-width p{
+    padding: 0;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+ /* testimonial area css */
+.testimonial-container{
+    display: flex;
+    margin-bottom: 120px;
+}
+.testimonial-width{
+    width:25%;
+   margin-left: 6%;
+   text-align: center;
+  
+}
+.testimonial-width p{
+    color: #18191F;
+    font-size: 17px;
+}
+.testimonial-width img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+
+}
+
+
+ /* footer area css */
+.footer{
+    text-align: center;
+    background-color: #0B0D17;
+    padding-bottom: 30px;
+}
+.footer h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.footer span{
+    color:#FF5959;
+}
+.footer p{
+    font-size: 16px;
+    color: #fff;
+}
